@@ -1,5 +1,5 @@
 # Rpi-Mcserver
-Setup a Minecraft Server with Java on a Raspberry Pi.
+Setup a Local network Minecraft Server with Java on a Raspberry Pi.
 
 The basic Setup is in the file "Setup Java and Server".
 
