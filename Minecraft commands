@@ -1,0 +1,12 @@
+  #Important Minecraft commands: (You can use them in the command line, where you have started your server)
+  
+  /op name 
+  #give the person op. Most comfortable way of using the commands.
+  
+  /whitelist name
+  #If you enable a whitelist you have to give everyone who wants to join the server a permission. Good for Privat servers, that you are hosting in a non-privat network.
+  
+  /ban name
+  #Bans a player. Usefull if you are not ingame at the moment.
+  
+  #All commands can also be used ingame, if you have a op permission.
