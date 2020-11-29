@@ -1,0 +1,36 @@
+#At first you have to add Java to your Rpi.
+#Go to the command line type
+
+sudo apt search 
+
+#Wait untill its installed
+
+sudo apt install openjdk-9-jdk-headless
+
+#Control your java version
+
+java -version
+
+#Create a file in /home/pi to save your server data 
+
+mkdir mcserver
+cd mcserver
+
+#Get the minecraft server data in a usual browser (https://www.minecraft.net/de-de/download/server). Copy the link adress and paste it into the command line:
+
+wget "paste link adress here"
+
+#To set the server up type:
+
+java -Xmx1024M -Xms1024M -jar server.jar nogui
+
+#With -Xmx and -Xms you can limit the RAM usage. But you should choose at least 1GB. After this you have to accept the EULA.
+
+nano eula.txt
+eula=true
+
+#After accepting the eula you have to start the server again.
+
+java -Xmx1024M -Xms1024M -jar server.jar nogui
+
+#Then you should be able to join the Server if your PC and the Rpi are in the same Network. 
