@@ -24,7 +24,7 @@ wget "paste link adress here"
 
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 
-#With -Xmx and -Xms you can limit the RAM usage. But you should choose at least 1GB. After this you have to accept the EULA.
+#After this you have to accept the EULA.
 
 nano eula.txt
 eula=true
@@ -32,5 +32,7 @@ eula=true
 #After accepting the eula you have to start the server again.
 
 java -Xmx1024M -Xms1024M -jar server.jar nogui
+#Then you should be able to join the server over his IP, as long as your PC and the Pi are in the same network.
 
-#Then you should be able to join the Server if your PC and the Rpi are in the same Network. 
+#If you want to see the use of RAM for example you just have to write the command without nogui. Then you will see "statistics" of your used RAM and the server log.
+#With -Xmx and -Xms you can limit the RAM usage. But you should choose at least 1GB or more if you have a Pi4 or better.
