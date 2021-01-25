@@ -1,5 +1,5 @@
 # Raspberrypi Minecraft server
-Setup a Local network Minecraft Server with Java on a Raspberry Pi.
+Setup a local Minecraft Server with Java on a Raspberry Pi.
 
 The basic Setup for the Pi is in the file "Setup with Raspberry Pi".
 
