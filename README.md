@@ -1,10 +1,11 @@
-# Raspberrypi Minecraft server
-Setup a local Minecraft Server with Java on a Raspberry Pi or Windows.
+Setup a local Minecraft Server with Java on a Rpi or Windows and personalize the most important settings.
 
-The basic Setup for the Pi is in the file "Setup with Raspberry Pi".
+Raspberry Pi
+1. "Setup with Rpi"
+2. "server.properties Rpi"
+3. "Minecraft commands"
 
-The basic Setup for Windows is in the file "Setup with Windows".
-
-If you want to change the server Options read the file "server.properties".
-
-For the most common Minecraft Java commands (whitelist, ban, op, etc.) open the file "Minecraft commands".
+Windows
+1. "Setup with Windows"
+2. "server.properties Windows"
+3. "Minecraft commands"
