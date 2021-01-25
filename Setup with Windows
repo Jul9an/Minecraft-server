@@ -1,0 +1,21 @@
+#At first you have to download Java for Windows.
+#Then go to "https://www.minecraft.net/de-de/download/server/" and download the server file.
+#To start the server you have to go to cmd. Then type:
+
+cd file.location
+(for example "cd desktop/mcserver")
+
+#To start the first download of the server type:
+
+java -Xmx1024M -Xms1024M -jar server.jar nogui
+
+#Then you have to search the text file "eula.txt" in the folder for your server.
+#You have to change FALSE to TRUE inside the text document.
+#After this you start the server again with:
+
+java -Xmx1024M -Xms1024M -jar server.jar nogui
+
+#Then you should be able to join the server over his IP, as long as your PC and the Pi are in the same network.
+
+#With -Xmx and -Xms you can change the maximum and minimum RAM the server can use.
+#If you want to see the use of RAM for example you just have to write the command without nogui. Then you will see "statistics" of your used RAM and the server log.
