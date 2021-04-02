@@ -1,5 +1,5 @@
 #At first you have to add Java to your Rpi.
-#Go to the command line type
+#Go to the consol type
 
 sudo apt search 
 
@@ -16,7 +16,7 @@ java -version
 mkdir mcserver
 cd mcserver
 
-#Get the minecraft server data in a usual browser (https://www.minecraft.net/de-de/download/server). Copy the link adress and paste it into the command line:
+#Get the minecraft server data in a usual browser (https://www.minecraft.net/de-de/download/server). Copy the link adress and paste it into the console:
 
 wget "paste link adress here"
 
