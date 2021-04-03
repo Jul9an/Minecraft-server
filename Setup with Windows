@@ -15,7 +15,7 @@ java -Xmx1024M -Xms1024M -jar server.jar nogui
 
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 
-#Then you should be able to join the server over his IP, as long as your PC and the Pi are in the same network.
+#Then you should be able to join the server over the IP from the server device, as long as your PC and the Pi are in the same network.
 
 #With -Xmx and -Xms you can change the maximum and minimum RAM the server can use.
-#If you want to see the use of RAM for example you just have to write the command without nogui. Then you will see "statistics" of your used RAM and the server log.
+#If you want to see the use of RAM for example you just have to write the command without "nogui". Then you will see stats of your used RAM and the op server log.
